@@ -42,9 +42,6 @@ main {
 .wave-container {
     width: 200%;
     /* コンテナをビューポートよりも広く設定 */
-    display: flex;
-    justify-content: flex-start;
-    /* コンテナをビューポートよりも広く設定 */
     position: relative;
     animation: move 30s linear infinite;
     /* 水平方向の動きを遅くする */
@@ -55,7 +52,7 @@ main {
 .wave-inner {
     display: flex;
     justify-content: flex-start;
-    width: 100%;
+    width: 200%;
 }
 
 .leaf {
